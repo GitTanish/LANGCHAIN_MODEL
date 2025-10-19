@@ -1,0 +1,24 @@
+# Langchain core
+langchain 
+langchain-core
+langchain
+# OpenAI?
+langchain-OpenAI
+OpenAI
+
+# Anthropic - Integration
+langchain-Anthropic
+
+# Google Gemini
+langchain-google-genai
+google-generativeai
+
+# groq
+langchain-groq
+
+# Environment Variable
+python-dotenv
+
+# Machine Learning Utilities
+numpy
+scikit-learn
