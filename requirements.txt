@@ -2,6 +2,8 @@
 langchain 
 langchain-core
 langchain
+langchain_community
+
 # OpenAI?
 langchain-OpenAI
 OpenAI

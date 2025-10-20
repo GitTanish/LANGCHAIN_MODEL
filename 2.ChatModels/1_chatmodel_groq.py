@@ -10,6 +10,7 @@ messages = [
 ]
 
 result = model.invoke(messages)
+print(result)
 # Note: the usage pattern is the same for other providers — only the import and model class change.
 # Examples (replace the import/class with the library you actually use):
 
