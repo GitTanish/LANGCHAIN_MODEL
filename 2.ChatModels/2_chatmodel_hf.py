@@ -9,7 +9,7 @@ loaded = load_dotenv()
 print(f"--- DEBUG: .env file loaded? {loaded} ---")
 
 api_key = os.getenv("HUGGINGFACEHUB_API_TOKEN") # Check for the CORRECT name
-access_key = os.getenv("HUGGINGFACEHUB_ACCESS_TOKEN") # Check for the WRONG name
+access_key = os.getenv("HUGGINGFACEHUB_ACCESS_TOKEN") 
 
 if api_key:
     print(f"--- DEBUG: SUCCESS! Found HUGGINGFACEHUB_API_TOKEN. ---")
@@ -25,6 +25,7 @@ llm = HuggingFaceEndpoint(
     task="text-generation"
 )
 model= ChatHuggingFace(llm=llm)
+
 
 result = model.invoke("Instructions to attain enlightenment")
 print(result.content)

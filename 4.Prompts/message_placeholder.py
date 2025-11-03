@@ -38,4 +38,4 @@ query = input('Enter your question: ')
 # create prompt
 prompt=chat_template.invoke({'chat_history':chat_history, 'query':query})
 
-print(prompt)
+print(prompt)q
